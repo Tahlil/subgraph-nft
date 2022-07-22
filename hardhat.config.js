@@ -16,4 +16,10 @@ module.exports = {
     path: './abi/',
     clear: true,
   },
+  networks: {
+    rinkeby: {
+      url: `https://ethereum-rinkeby--rpc.datahub.figment.io//apikey/${DATAHUB_API_KEY}`,
+      accounts: [`0x${RINKEBY_PRIVATE_KEY}`],
+    },
+  },
 };
