@@ -5,9 +5,9 @@ async function main() {
     console.log("Account balance:", (await deployer.getBalance()).toString());
   
     const NFT = await ethers.getContractFactory("NFT");
-    const NFT = await NFT.deploy();
+    const nft = await NFT.deploy();
   
-    console.log("Contract address:", NFT.address);
+    console.log("Contract address:", nft.address);
   }
   
   main()
