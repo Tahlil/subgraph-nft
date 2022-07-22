@@ -18,7 +18,7 @@ contract NFT is ERC721URIStorage {
 
     mapping(uint => Collection) collections;
 
-    constructor() ERC721("FunNFT Collection", "FUN") {}
+    constructor() ERC721("NFT Collection", "FUN") {}
 
     function mint(string memory tokenURI, uint price) public returns (uint tokenId) {
         // increment the counter, to get the next tokenId.
