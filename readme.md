@@ -17,3 +17,9 @@ graph init --contract-name NFT --index-events --studio \
   --network rinkeby \
   funnft
 ```
+Deploy subgraph
+```
+graph auth --studio <DEPLOY_KEY>
+cd funnft
+yarn deploy
+```
