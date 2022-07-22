@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/Tahlil/subgraph-nft.git",
   "author": "Tahlil",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "hardhat": "^2.10.1"
+  }
 }
